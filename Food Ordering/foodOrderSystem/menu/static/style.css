@@ -100,28 +100,3 @@ p {
         opacity: 0;
     }
 }
-
-.outer {
-    margin-bottom: 40px;
-    width: calc(25% - 20px);
-    margin-right: 15px;
-    margin-left: 15px;
-    display: inline-block;
-    overflow: hidden;
-}
-
-.inner {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    background: #f8f8f8;
-    border-radius: 15px 15px 0 0;
-}
-
-.food-image {
-    width: 100%;
-    height: 200px;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-}

@@ -25,11 +25,14 @@ SECRET_KEY = 'django-insecure-rj0ahx3vod-kb+3l_r8bzegcfovbyb754&9ldlc^)l949+k=0(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+DEBUG = False
+
 ALLOWED_HOSTS = [
     '.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
+
 
 # Application definition
 
@@ -50,12 +53,14 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'foodOrderSystem.urls'
@@ -123,29 +128,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
+# =========================================================
+# STATIC FILES
+# =========================================================
 
-# Static files (CSS, JavaScript, Images)
-
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
-
-
-
-AUTH_USER_MODEL = 'customer.CustomUser'
-
-LOGIN_URL = 'login'
-
-LOGIN_REDIRECT_URL = 'login'
-# Static files
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# Media files
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-
-# WhiteNoise
 STORAGES = {
     "default": {
         "BACKEND": "django.core.files.storage.FileSystemStorage",
@@ -154,5 +143,26 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+
+# =========================================================
+# MEDIA FILES
+# =========================================================
+
+
+
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AUTH_USER_MODEL = 'customer.CustomUser'
+
+LOGIN_URL = 'login'
+
+LOGIN_REDIRECT_URL = 'login'
+
+MEDIA_ROOT = BASE_DIR /'media'
+
+MEDIA_URL = '/media/'

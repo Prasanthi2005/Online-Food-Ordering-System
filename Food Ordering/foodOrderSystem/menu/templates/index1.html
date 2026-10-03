@@ -240,73 +240,48 @@
         </div>
     </form>
 
-    html {% load static %}
 
     <section class="cards d-flex justify-content-evenly flex-wrap">
-
         {% if foodItems is None %}
-
         <p>Khana Nhi milega</p>
-
         {% else %} {% for food in foodItems %}
-
         <div class="outer overflow-hidden">
-
-            <div class="inner">
-
-                {% if food.image %}
-                <img src="{{ food.image.url }}" alt="{{ food.name }}" class="food-image"> {% else %}
-                <img src="{% static 'pizza.png' %}" alt="{{ food.name }}" class="food-image"> {% endif %}
-
+            <div class="inner" style="background-image: url('{{ food.image.url }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 200px;">
             </div>
-
             <div class="item d-flex align-items-center">
-
                 <div class="item-details flex-grow-1">
-
                     <div class="item-name">
                         <h4>{{ food.name }}</h4>
                         <p>Fresh & sweet</p>
                     </div>
-
                     <div class="rating">
-                        ★★★★
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
                     </div>
-
                 </div>
-
                 <div class="item-price-and-cart d-flex align-items-center">
-
                     <div class="item-price">
                         <p>{{ food.price }}</p>
                     </div>
-
                     <form action="#" method="post">
-
                         {% csrf_token %}
-
                         <div class="cart ml-4">
-
                             <input hidden type="text" name="id" value="{{ food.id }}"> {% if food.id|stringformat:"s" in cart %}
-
                             <input type="submit" class="btn btn-success border btn-sm added-to-cart" value="Added to Cart" disabled> {% else %}
-
                             <input type="submit" class="btn btn-danger border btn-sm" value="Add to Cart"> {% endif %}
-
                         </div>
-
                     </form>
-
                 </div>
-
             </div>
-
         </div>
-
         {% endfor %} {% endif %}
-
     </section>
-
 
     <div class="container text-center justify-content-center mt-5">
 
