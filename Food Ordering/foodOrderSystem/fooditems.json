@@ -1,0 +1,322 @@
+[
+{
+  "model": "restaurant.fooditems",
+  "pk": 16,
+  "fields": {
+    "name": "Pizza",
+    "price": "180.00",
+    "image": "images/pizzaa_LFikSXn.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 17,
+  "fields": {
+    "name": "Noodles",
+    "price": "220.00",
+    "image": "images/noodles.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 18,
+  "fields": {
+    "name": "Noodle",
+    "price": "150.00",
+    "image": "images/Noodle.webp",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 19,
+  "fields": {
+    "name": "Burger",
+    "price": "150.00",
+    "image": "images/burger.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 20,
+  "fields": {
+    "name": "Thali",
+    "price": "300.00",
+    "image": "images/thali.jpg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 21,
+  "fields": {
+    "name": "Panner Tikka",
+    "price": "180.00",
+    "image": "images/paneertikka.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 22,
+  "fields": {
+    "name": "Biryani",
+    "price": "320.00",
+    "image": "images/banner.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 23,
+  "fields": {
+    "name": "Pizza",
+    "price": "200.00",
+    "image": "images/pizzaa_3ZZPWEC.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 25,
+  "fields": {
+    "name": "thalii",
+    "price": "220.00",
+    "image": "images/thali_4deesJg.jpg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 26,
+  "fields": {
+    "name": "Pizza",
+    "price": "180.00",
+    "image": "images/pizzaa_C4bJhzL.jpeg",
+    "restaurantName": "Grishma Kitchen"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 27,
+  "fields": {
+    "name": "Chicken 65",
+    "price": "200.00",
+    "image": "images/chicken_65.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 28,
+  "fields": {
+    "name": "Biryani",
+    "price": "320.00",
+    "image": "images/Biryani.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 29,
+  "fields": {
+    "name": "Butter Chicken",
+    "price": "220.00",
+    "image": "images/Butter_chicken.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 30,
+  "fields": {
+    "name": "Chicken Curry",
+    "price": "180.00",
+    "image": "images/Chicken_curry.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 31,
+  "fields": {
+    "name": "Biryani Recipe",
+    "price": "280.00",
+    "image": "images/Biryani.jpg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 32,
+  "fields": {
+    "name": "Egg Bread",
+    "price": "80.00",
+    "image": "images/egg_bread.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 33,
+  "fields": {
+    "name": "Garlic Chicken",
+    "price": "380.00",
+    "image": "images/Garlic_butter_rice.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 34,
+  "fields": {
+    "name": "Chicken Friedrice",
+    "price": "120.00",
+    "image": "images/Chicken_Friedrice.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 35,
+  "fields": {
+    "name": "Tomato rice",
+    "price": "180.00",
+    "image": "images/Tomato_rice.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 36,
+  "fields": {
+    "name": "Idli Sambar",
+    "price": "50.00",
+    "image": "images/idli_sambar.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 37,
+  "fields": {
+    "name": "Tomato chicken",
+    "price": "300.00",
+    "image": "images/Tomato_chicken.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 38,
+  "fields": {
+    "name": "Chicken Lollipop",
+    "price": "310.00",
+    "image": "images/Chicken_Lollipop.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 39,
+  "fields": {
+    "name": "Garlic Butter Rice",
+    "price": "200.00",
+    "image": "images/Garlic_butter_rice_BisuiUz.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 40,
+  "fields": {
+    "name": "Green Peas Roti",
+    "price": "80.00",
+    "image": "images/Green_peas_Roti.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 41,
+  "fields": {
+    "name": "Oats",
+    "price": "60.00",
+    "image": "images/Oats.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 42,
+  "fields": {
+    "name": "Puri",
+    "price": "40.00",
+    "image": "images/puri.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 43,
+  "fields": {
+    "name": "Tandoori Chicken",
+    "price": "460.00",
+    "image": "images/Tandoori_chicken.jpg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 44,
+  "fields": {
+    "name": "Salad",
+    "price": "130.00",
+    "image": "images/salad.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 45,
+  "fields": {
+    "name": "Roti",
+    "price": "60.00",
+    "image": "images/Roti.jpeg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 47,
+  "fields": {
+    "name": "Chicken Tandoori",
+    "price": "350.00",
+    "image": "images/Tandoori_chicken_94iXJbs.jpg",
+    "restaurantName": "FoodCourt"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 71,
+  "fields": {
+    "name": "Dosa",
+    "price": "120.00",
+    "image": "images/dosa_4kQecHq.jpg",
+    "restaurantName": "sahil foods"
+  }
+},
+{
+  "model": "restaurant.fooditems",
+  "pk": 75,
+  "fields": {
+    "name": "Biryani",
+    "price": "230.00",
+    "image": "images/Biryani_sVduaV7.jpg",
+    "restaurantName": "Grishma Kitchen"
+  }
+}
+]
